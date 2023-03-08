@@ -1,12 +1,15 @@
 :root {
-    --color-main-bg: #260f4f;
-    --color-header-bg: #15082b;
-    --color-text: #07020f;
-    --color-main: blueviolet;
+    --color-bg: #9d9deb;
+    --color-text: #171723;
+    --color-header-bg: #34344f;
+    --color-header-text: #faebd7;
+    --color-accent: #aaaaff;
 
     --z-header: 10;
     --z-loading: 50;
 
     --shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     --shadow-bold: rgba(0, 0, 0, 0.25) 0px 2px 10px;
+    --shadow-card: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
 }

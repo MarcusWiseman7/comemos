@@ -6,10 +6,6 @@
     import CLoading from '$lib/components/CLoading.svelte';
 </script>
 
-<svelte:head>
-    <title>Comemos</title>
-</svelte:head>
-
 <div class="layout">
     <header class="header">
         <a href="/">Comemos!</a>
@@ -36,8 +32,6 @@
         justify-content: space-between;
         width: 100vw;
         min-height: 100vh;
-        color: #fff;
-        background-color: var(--color-main-bg);
         overflow-x: hidden;
         user-select: none;
         padding-top: 80px;
@@ -55,6 +49,7 @@
         padding: 0 16px;
         margin-bottom: 24px;
         height: 80px;
+        color: var(--color-header-text);
         background-color: var(--color-header-bg);
         box-shadow: var(--shadow-bold);
         font-weight: 600;

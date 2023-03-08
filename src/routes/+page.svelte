@@ -29,6 +29,10 @@
     });
 </script>
 
+<svelte:head>
+    <title>Comemos!</title>
+</svelte:head>
+
 {#if cards?.length}
     <div class="search">
         <label for="search_input" class="search__label">
@@ -74,7 +78,7 @@
         }
 
         &__input {
-            color: var(--color-main);
+            color: var(--color-accent);
             font-weight: 600;
             font-size: 20px;
             line-height: 28px;
@@ -101,7 +105,7 @@
         height: 240px;
         width: 100%;
         border-radius: 6px;
-        background-color: var(--color-main);
+        background-color: var(--color-accent);
 
         &:hover {
             // hover:ring-4 hover:ring-violet-500
@@ -118,7 +122,6 @@
             height: 64px;
             display: flex;
             align-items: center;
-            color: var(--color-text);
             padding-left: 12px;
         }
 

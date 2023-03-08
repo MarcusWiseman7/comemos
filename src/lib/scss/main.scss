@@ -6,5 +6,6 @@ body {
     user-select: none;
     width: 100%;
     min-height: 100vh;
-    color: #202124;
+    color: var(--color-text);
+    background-color: var(--color-bg);
 }
