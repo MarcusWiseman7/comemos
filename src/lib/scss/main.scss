@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'theme';
+
+body {
+    overflow-x: hidden;
+    user-select: none;
+    width: 100%;
+    min-height: 100vh;
+    color: #202124;
+}
